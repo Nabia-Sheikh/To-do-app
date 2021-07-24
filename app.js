@@ -1,4 +1,3 @@
-
 var taskInput = document.getElementById("new-task"); //Add a new task.
 var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTaskHolder = document.getElementById("incomplete-tasks"); //ul of #incomplete-tasks
@@ -150,5 +149,7 @@ for (var i = 0; i < completedTasksHolder.children.length; i++) {
 
 function delAll(){
   incompleteTaskHolder.innerHTML= "";
+  completedTasksHolder.innerHTML= "";
   document.getElementById('deleteAll').style.display = "none";
+  
 }
