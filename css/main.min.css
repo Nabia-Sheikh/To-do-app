@@ -3,14 +3,19 @@
     position: absolute;
     display: none;
     top: 228px;
-    width: 183px !important;
-      left: 495px;
+    width: 206px !important;
+    font-family: Montserrat,
+    sans-serif , FontAwesome;
+      left: 470px;
   
 }
 #deleteCompleted{
     position: absolute;
     display : none;
-     width: 170px !important;
+     font-family: Montserrat,
+     sans-serif,
+     FontAwesome;
+     width: 180px !important;
      left: 710px;
     top: 228px;
   
